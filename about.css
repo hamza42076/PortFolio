@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+}
+#left #image img{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    height: 350px;
+    width: 450;
+    border-radius:20px;
+
+}
+#right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color:yellow; */
+    color: white;
+}
+#right-content{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+#right-content h1{
+    font-size: 50px;
+}
+#right-content #content h6{
+    margin-top: 15px;
+    color: red;
+}
+#right-content p{
+    margin-top: 10px;
+}
+
+#right-content #skills{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+#right-content #button{
+    border: 2px solid ;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#button a{
+    text-decoration: none;
+    color:wheat;
+}
+#button a:hover{
+    color: red;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 5px 5px;
+
+ 
+}
