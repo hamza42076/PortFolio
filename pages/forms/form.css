@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width:40%;
+    background-color: blue;
+}
+#left-content{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#left-content #left-head h1{
+    font-size: 50px;
+    color: white;
+}
+#gmail-icon{
+    display: flex;
+    margin-top: 20px;
+}
+#gmail-icon p{
+    padding-left: 9px;
+    color: white;
+}
+#gmail-icon i{
+    color: red;
+}
+#phone-icon{
+    display: flex;
+    margin-top: 20px;
+}
+#phone-icon p{
+    padding-left: 9px;
+    color: white;
+}
+#phone-icon i{
+    color: red;
+}
+#web-link{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    color: white;
+}
+#web-link i{
+    font-size: 20px;
+}
+#web-link a{
+    color: white;
+    text-decoration: none;
+}
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: yellow;
+}
