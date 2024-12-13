@@ -10,14 +10,14 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
 }
 #left{
     position: relative;
     height: 100%;
     width:40%;
-    background-color: blue;
+    background-color: black;
 }
 #left-content{
     position: absolute;
@@ -63,8 +63,37 @@ html,body{
     color: white;
     text-decoration: none;
 }
+#CV-link button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#go-home button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
 #right{
+    position: relative;
     height: 100%;
     width: 60%;
     background-color: yellow;
+}
+ #right #form{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+#form input{
+    border: 100%;
+    border-radius: 10%;
 }
